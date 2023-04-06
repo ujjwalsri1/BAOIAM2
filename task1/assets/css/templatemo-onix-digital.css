@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.about-us {
+  margin-top: 0px;
+  padding-top: 120px;
+}
+
+.about-us .left-image {
+  margin-right: 30px;
+}
+
+.about-us .section-heading h2 {
+  color: #f45e29;
+  margin-right: 60px;
+}
+
+.about-us .section-heading p {
+  margin-top: 20px;
+}
+
+
+
+.about-us .fact-item {
+  margin-top: 25px;
+}
+
+.about-us .fact-item .count-digit {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #f45e29;
+  margin-top: 5px;
+}
+
+.about-us .fact-item .count-title {
+  font-size: 15px;
+  color: #f45e29;
+}
+
+.about-us .fact-item p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+

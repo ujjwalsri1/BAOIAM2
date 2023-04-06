@@ -1,0 +1,159 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-image {
+  height: 10em;
+  object-fit: cover;
+}
+
+svg {
+  margin-top: -0.1em;
+}
+
+.color-orange{
+    color: #e57622;
+}
+
+.default-z-index-1 {
+  z-index: 1;
+}
+
+.default-z-index-0 {
+  z-index: 0;
+}
+
+.lower-cards {
+  top: -11.3em;
+  left: 10em;
+  transform: scale(0.9);
+}
+
+.upper-cards {
+  transform: scale(1);
+}
+
+.card:hover{
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.products-section .card{
+  font-size: 0.8em;
+  min-height: 25em;
+}
+
+
+.product-learning-image{
+  left: 10em;
+}
+
+@keyframes moveDown {
+  from {
+    z-index: 1;
+    transform: scale(1);
+  }
+  to {
+    z-index: 0;
+    transform: translate(10em, 10em) scale(0.9);
+  }
+}
+
+.background-orangish {
+  background: linear-gradient(270deg, #ff5757, orange);
+}
+
+.coursecontainer {
+  margin-top: 100px;
+  padding-left: 23%;
+  height: 500px;
+  background: rgb(226, 149, 17);
+  display: flex;
+}
+.column1 {
+  flex: 1;
+
+  width: 200px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 5px;
+  position: relative;
+}
+.circle {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.circle1 {
+  background-color: rgb(71, 3, 122);
+
+  top: 50px;
+  left: 50px;
+}
+.circle2 {
+  background-color: aqua;
+  background-image: url("photo1.png");
+  background-size: cover;
+  top: 75px;
+  left: 75px;
+}
+
+.column2 {
+  flex: 1;
+  margin-top: 100px;
+}
+.revision {
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(71, 3, 122);
+}
+.date {
+  font-weight: 900;
+  color: rgb(71, 3, 122);
+}
+
+.btnjoin {
+  color: rgb(239, 235, 241);
+  margin-top: 15px;
+  background-color: rgb(71, 3, 122);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+
+
+@keyframes moveUp {
+  from {
+    z-index: 0;
+    transform: scale(0.9);
+  }
+  to {
+    z-index: 2;
+    transform: translate(-10em, -12.4em) scale(1);
+  }
+}
+
+@keyframes resetPositionLowerCard {
+  from {
+    z-index: 2;
+    transform: translate(-10em, -12.4em) scale(1);
+  }
+  to {
+    z-index: 0;
+    transform: scale(0.9);
+  }
+}
+
+@keyframes resetPositionUpperCard {
+  from {
+    z-index: 0;
+    transform: translate(10em, 10em) scale(0.9);
+  }
+  to {
+    z-index: 1;
+    transform: scale(1);
+  }
+}
+
